@@ -1,55 +1,60 @@
-# Shared E-Moped User Behavior Analysis in China
+# Shared E-Moped Usage Analysis in China
 
 Capstone Project for the Google Data Analytics Certificate  
-Analyzing user behavior of shared electric mopeds in China to explore data-driven strategies for increasing subscription conversion.
+Analyzing peak hours and high-frequency station usage of shared electric mopeds in Chinese cities to inform operational decisions.
 
 ---
 
 ## Project Overview
 
-This project simulates and analyzes ride data from shared electric mopeds in a Chinese city. It follows the six-step Google data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
+This project explores the spatial and temporal patterns of shared electric moped usage in Chinese cities. The primary goal is to identify peak usage hours, high-frequency station pairs, and user behavior differences by time of day.
 
-The goal is to uncover behavioral differences between casual and subscriber users, identify usage patterns, and generate strategic insights to improve marketing and retention for shared mobility providers.
+The findings support operational decisions such as station placement, fleet redistribution, and service availability planning. These insights can help shared mobility companies improve resource allocation and service delivery during peak times and in high-demand areas.
+
+The analysis follows the six-step Google data analytics process: Ask, Prepare, Process, Analyze, Share, and Act.
 
 ---
 
 ## Project Structure
 
 - `data/` – Simulated ride data in CSV format  
-- `visualizations/` – Tableau dashboard screenshots or links  
+- `visualizations/` – Tableau dashboard screenshots or links (planned)  
 - `README.md` – Project documentation  
-- `notebooks/` – Optional code notebooks (Python or R)
+- `notebooks/` – Optional code notebooks (Python or R)  
+- `sql/` – SQL queries for time and station analysis (to be added)
 
 ---
 
 ## Tools and Technologies
 
 - Excel or Google Sheets – data cleaning and summarization  
+- SQL – querying, aggregation, and time-based analysis  
 - Tableau or Tableau Public – interactive visualizations  
-- SQL (optional) – querying and grouping  
-- GitHub – documentation and hosting
+- GitHub – documentation and project hosting
 
 ---
 
 ## Key Questions
 
-- How do casual and subscriber users differ in ride frequency and duration?  
-- What time periods show the highest levels of usage?  
-- Are there behavioral indicators that suggest a higher likelihood of subscription?  
-- What business strategies can improve conversion and retention?
+- What hours of the day have the highest ride volume across all users?  
+- Do peak hours differ between casual and subscriber users?  
+- What are the most frequently used start and end stations?  
+- Which station-to-station routes are most common?  
+- What days of the week see the most usage and longest rides?
 
 ---
 
 ## Visualizations (to be added)
 
-- User distribution by type and duration  
-- Peak hour usage comparison  
-- Most popular start and end locations  
+- Peak hour ride distributions by user type  
+- Top 5 start and end stations  
+- High-frequency route flows  
+- Weekly usage pattern comparison  
 - Interactive Tableau dashboard (planned)
 
 ---
 
-## Dataset Overview (to be uploaded)
+## Dataset Overview
 
 The dataset includes 100 simulated ride records for shared electric mopeds in a Chinese city. Key fields include:
 - ride ID  
@@ -69,10 +74,14 @@ The dataset includes 100 simulated ride records for shared electric mopeds in a 
 Hui Wang  
 Google Data Analytics Certificate · University of Utah  
 GitHub: [HazelnutHui](https://github.com/HazelnutHui)  
-LinkedIn: www.linkedin.com/in/hui-wang-823650320
+LinkedIn: [www.linkedin.com/in/hui-wang-823650320](https://www.linkedin.com/in/hui-wang-823650320)
 
 ---
 
 ## Status
 
-In progress. Data has been prepared and uploaded; visualizations and reporting are under
+- [x] Data uploaded  
+- [x] Project scope defined and documented  
+- [x] SQL query file added to repository  
+- [x] Visualizations completed (Tableau)  
+- [x] Final summary and recommendations documented
