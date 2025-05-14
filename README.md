@@ -17,7 +17,7 @@ The analysis follows the six-step Google data analytics process: Ask, Prepare, P
 
 ## Project Structure
 
-- `data/` – Simulated ride data in CSV format  
+- `data/` – Simulated ride data in CSV format (v2)  
 - `visualizations/` – Tableau dashboard screenshots or links (planned)  
 - `README.md` – Project documentation  
 - `notebooks/` – Optional code notebooks (Python or R)  
@@ -56,7 +56,9 @@ The analysis follows the six-step Google data analytics process: Ask, Prepare, P
 
 ## Dataset Overview
 
-The dataset includes 100 simulated ride records for shared electric mopeds in a Chinese city. Key fields include:
+The dataset includes 350 simulated ride records for shared electric mopeds in a Chinese city. It contains 25 unique station names and incorporates realistic peak-hour bias to reflect common commuting patterns.
+
+Key fields include:
 - ride ID  
 - user type (casual or subscriber)  
 - start and end times  
@@ -80,7 +82,7 @@ LinkedIn: [www.linkedin.com/in/hui-wang-823650320](https://www.linkedin.com/in/h
 
 ## Status
 
-- [x] Data uploaded  
+- [x] Data uploaded (v2, 350 records with peak-hour simulation)  
 - [x] Project scope defined and documented  
 - [x] SQL query file added to repository  
 - [x] Visualizations completed (Tableau)  
