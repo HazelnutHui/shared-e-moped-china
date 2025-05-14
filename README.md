@@ -69,7 +69,7 @@ The dataset includes 100 simulated ride records for shared electric mopeds in a 
 Hui Wang  
 Google Data Analytics Certificate · University of Utah  
 GitHub: [HazelnutHui](https://github.com/HazelnutHui)  
-LinkedIn: (insert your LinkedIn URL here)
+LinkedIn: www.linkedin.com/in/hui-wang-823650320
 
 ---
 
