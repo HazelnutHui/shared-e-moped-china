@@ -44,13 +44,20 @@ The analysis follows the six-step Google data analytics process: Ask, Prepare, P
 
 ---
 
-## Visualizations (to be added)
+## Visualizations
 
-- Peak hour ride distributions by user type  
-- Top 5 start and end stations  
-- High-frequency route flows  
-- Weekly usage pattern comparison  
-- Interactive Tableau dashboard (planned)
+This dashboard presents key temporal and spatial insights derived from the simulated e-moped ride dataset.
+
+**Key charts include:**
+
+- **Peak Hour Usage by User Type:** Identifies high-demand time slots and compares usage patterns between casual and subscriber users.
+- **Top 5 Start and End Stations:** Highlights the most frequently used pickup and drop-off locations across the city.
+- **Most Common Routes:** Displays the most frequent origin-destination pairs, providing insights for potential direct route optimization.
+- **Ride Volume by Day of the Week:** Reveals weekly usage patterns and helps identify the busiest operating days.
+- **Average Ride Duration by Day:** Compares ride length by weekday to uncover behavioral trends across time.
+
+> A full Tableau dashboard (to be linked) will be added here upon publication.
+
 
 ---
 
