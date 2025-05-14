@@ -1,96 +1,88 @@
-# Shared E-Moped Usage Analysis in China
+# Shared E-Moped Usage Dashboard (China)
 
-Capstone Project for the Google Data Analytics Certificate  
-Analyzing peak hours and high-frequency station usage of shared electric mopeds in Chinese cities to inform operational decisions.
-
----
-
-## Project Overview
-
-This project explores the spatial and temporal patterns of shared electric moped usage in Chinese cities. The primary goal is to identify peak usage hours, high-frequency station pairs, and user behavior differences by time of day.
-
-The findings support operational decisions such as station placement, fleet redistribution, and service availability planning. These insights can help shared mobility companies improve resource allocation and service delivery during peak times and in high-demand areas.
-
-The analysis follows the six-step Google data analytics process: Ask, Prepare, Process, Analyze, Share, and Act.
+Capstone project for the Google Data Analytics Certificate  
+📍 Topic: Ride behavior analysis of shared electric mopeds in Chinese cities
 
 ---
 
-## Project Structure
+## 📌 Project Overview
 
-- `data/` – Simulated ride data in CSV format (v2)  
-- `visualizations/` – Tableau dashboard screenshots or links (planned)  
-- `README.md` – Project documentation  
-- `notebooks/` – Optional code notebooks (Python or R)  
-- `sql/` – SQL queries for time and station analysis (to be added)
+This project analyzes simulated ride data from a shared electric moped system in a Chinese city. It follows the six-step Google Data Analytics process: Ask, Prepare, Process, Analyze, Share, and Act.
+
+The objective is to uncover usage patterns, identify peak times, and highlight popular routes and stations to support business decisions like fleet deployment, station optimization, and marketing strategy.
 
 ---
 
-## Tools and Technologies
+## 🔍 Key Business Questions
 
-- Excel or Google Sheets – data cleaning and summarization  
-- SQL – querying, aggregation, and time-based analysis  
-- Tableau or Tableau Public – interactive visualizations  
-- GitHub – documentation and project hosting
-
----
-
-## Key Questions
-
-- What hours of the day have the highest ride volume across all users?  
-- Do peak hours differ between casual and subscriber users?  
-- What are the most frequently used start and end stations?  
-- Which station-to-station routes are most common?  
-- What days of the week see the most usage and longest rides?
+- What are the peak riding hours for different user types?
+- Which start and end stations are used most frequently?
+- What routes are most common among all users?
+- Do casual and subscriber users ride differently?
+- How does ride duration vary across days of the week?
 
 ---
 
-## Visualizations
+## 📊 Interactive Dashboard
 
-This dashboard presents key temporal and spatial insights derived from the simulated e-moped ride dataset.
+👉 [View Tableau Dashboard on Tableau Public](https://public.tableau.com/app/profile/hui.wang3308/viz/E-MopedUsageAnalysisCapstoneforGoogleDataAnalytics/SharedE-MopedUsageDashboard)
 
-**Key charts include:**
+📥 Or [Download Tableau Workbook (.twbx)](./visualizations/e_moped_dashboard_final.twbx) to explore it locally using Tableau Desktop or Tableau Public.
 
-- **Peak Hour Usage by User Type:** Identifies high-demand time slots and compares usage patterns between casual and subscriber users.
-- **Top 5 Start and End Stations:** Highlights the most frequently used pickup and drop-off locations across the city.
-- **Most Common Routes:** Displays the most frequent origin-destination pairs, providing insights for potential direct route optimization.
-- **Ride Volume by Day of the Week:** Reveals weekly usage patterns and helps identify the busiest operating days.
-- **Average Ride Duration by Day:** Compares ride length by weekday to uncover behavioral trends across time.
+The dashboard includes:
+- 📈 Peak Hour Usage by User Type  
+- 🏁 Top 5 Start and End Stations  
+- 🔁 Most Common Routes  
+- ⏱ Average Ride Duration by Day of Week
 
-> A full Tableau dashboard (to be linked) will be added here upon publication.
+---
+
+## 🧰 Tools and Technologies
+
+- **Excel / Google Sheets** — data cleaning and structuring  
+- **Tableau Public** — interactive dashboard creation  
+- **GitHub** — documentation and project hosting  
+- *(Optional: SQL / Python for deeper exploration)*
+
+---
+
+## 📁 Project Structure
+
+shared-e-moped-china/
+├── data/ # Simulated ride dataset (CSV)
+├── visualizations/ # Tableau dashboard (.twbx) and screenshots
+├── notebooks/ # Optional SQL or Python files
+└── README.md # Project documentation (this file)
 
 
 ---
 
-## Dataset Overview
+## 📈 Dataset Summary
 
-The dataset includes 350 simulated ride records for shared electric mopeds in a Chinese city. It contains 25 unique station names and incorporates realistic peak-hour bias to reflect common commuting patterns.
+The dataset includes 100 simulated ride records with the following fields:
 
-Key fields include:
-- ride ID  
-- user type (casual or subscriber)  
-- start and end times  
-- ride duration in minutes  
-- start and end station names (in pinyin)  
-- vehicle type  
-- city  
-- day of week  
-- hour of day
+- `ride_id` — unique identifier  
+- `user_type` — casual or subscriber  
+- `start_time`, `end_time`  
+- `duration_min` — ride duration in minutes  
+- `start_station`, `end_station` (in pinyin)  
+- `day_of_week`, `hour_of_day`  
+- `city`, `vehicle_type`
 
 ---
 
-## Author
+## 👤 Author
 
-Hui Wang  
+**Hui Wang**  
 Google Data Analytics Certificate · University of Utah  
-GitHub: [HazelnutHui](https://github.com/HazelnutHui)  
-LinkedIn: [www.linkedin.com/in/hui-wang-823650320](https://www.linkedin.com/in/hui-wang-823650320)
+🔗 [GitHub – HazelnutHui](https://github.com/HazelnutHui)  
+🔗 [LinkedIn – Hui Wang](https://www.linkedin.com/in/hui-wang-823650320)
 
 ---
 
-## Status
+## ✅ Status
 
-- [x] Data uploaded (v2, 350 records with peak-hour simulation)  
-- [x] Project scope defined and documented  
-- [x] SQL query file added to repository  
-- [x] Visualizations completed (Tableau)  
-- [x] Final summary and recommendations documented
+- [x] Data simulated and cleaned  
+- [x] Dashboard designed and published  
+- [x] `.twbx` workbook uploaded to GitHub  
+- [x] README documented  
