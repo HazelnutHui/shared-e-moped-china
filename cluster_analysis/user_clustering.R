@@ -1,4 +1,15 @@
-# Load necessary libraries
+# ============================================
+# Google Data Analytics Capstone – R Clustering
+# Author: Hui Wang
+# Description: K-Means clustering analysis on e-moped user behavior
+# Requirements: Run the following packages if not installed
+# install.packages("ggplot2")
+# install.packages("dplyr")
+# install.packages("cluster")
+# install.packages("factoextra")
+# ============================================
+
+# Load libraries
 library(ggplot2)
 library(dplyr)
 library(cluster)
@@ -15,21 +26,21 @@ df <- data.frame(
 # Scale the data
 scaled_df <- scale(df)
 
-# Run k-means clustering (k = 3)
+# Run k-means clustering
 set.seed(123)
 kmeans_result <- kmeans(scaled_df, centers = 3, nstart = 25)
 
-# Add cluster labels to original data
+# Add cluster labels
 df$cluster <- as.factor(kmeans_result$cluster)
 
-# Visualize the clusters
+# Visualize clusters
 fviz_cluster(kmeans_result, data = scaled_df,
              geom = "point",
              ellipse.type = "norm",
              ggtheme = theme_minimal(),
              main = "K-Means Clustering of E-Moped Users")
 
-# Optional: Summary of each cluster
+# Cluster summary
 cluster_summary <- df %>%
   group_by(cluster) %>%
   summarise(
