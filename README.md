@@ -12,7 +12,7 @@ This is a capstone project for the [Google Data Analytics Certificate](https://w
 
 ---
 
-## 🔍 Key Business Questions
+## 🔍 Key Business Questions。 
 
 - What are the peak riding hours for different user types?
 - Which start and end stations are used most frequently?
